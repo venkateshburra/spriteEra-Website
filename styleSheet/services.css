@@ -9,7 +9,6 @@
   width: 100%;
   max-width: 294px;
   border-radius: 10px;
-  /* text-align: center; */
 }
 .article_service h1{
   font-size: 2rem;
@@ -22,13 +21,11 @@
 .article_service2 p{
   font-size: 1.6rem;
   text-align: center;
-  /* max-width: 600px; */
   margin: 1rem auto;
 }
 .service_item{
   border: 2px solid #1BA2BB;
   max-width: 317px;
-  /* height: 328px; */
   text-align: center;
   padding: 0.8rem;
   border-radius: 12px;
@@ -41,7 +38,6 @@
   font-size: 2rem;
   font-weight: 500;
   color: #000000;
-  /* text-align: center; */
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
 
@@ -50,7 +46,6 @@
   font-size: 1.7rem;
   font-weight: 300;
   color: #000000;
-  /* text-align: center; */
   opacity: 0.9;
 }
 
@@ -92,7 +87,6 @@
     width: 100%;
     max-width: 343px;
     border-radius: 10px;
-    /* text-align: center; */
   }
   .article_service h1{
     font-size: 2.5rem;
@@ -108,7 +102,6 @@
     font-size: 2.2rem;
     font-weight: 400;
     color: #000000;
-    /* text-align: center; */
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
   
@@ -117,7 +110,6 @@
     font-size: 1.8rem;
     font-weight: 300;
     color: #000000;
-    /* text-align: center; */
     opacity: 0.9;
   }
   .article_service2 p{
