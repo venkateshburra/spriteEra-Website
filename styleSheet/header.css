@@ -1,0 +1,177 @@
+
+
+
+
+header {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  background-color: #fff; 
+  border-bottom: 2px solid rgb(236, 236, 236);
+}
+
+nav{
+  margin: 2rem 0;
+}
+
+.vector img{
+  width: 33.07px;
+}
+.vector h2{
+  color: var(--Color-Fg-Primary, #222222);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 0.6rem;
+  /* white-space: nowrap; */
+}
+
+.vector{
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* column-gap: 2rem; */
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0 2.4rem;
+}
+
+ul{
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 10;
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: 2px 10px 30px 0px #0000001A; 
+}
+
+ul li{
+  list-style-type: none;
+  /* margin-right: 2.2rem; */
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--Color-Fg-Primary, #222222);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+ul li a img{
+  position: relative;
+  bottom: 2px;
+}
+ul li:hover{
+  color: #434343;
+}
+ul button{
+  background: var(--Color-Brand, #1BA2BB);
+  color: #fff;
+  border: 0;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  margin-left: 2.6rem;
+  white-space: nowrap;
+}
+ul button:hover{
+  cursor: pointer;
+  background: #18bad6;
+}
+.list{
+  display: none;
+}
+.menuu{
+  cursor: pointer;
+}
+
+.expandItems{
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .menu{
+    display: none;
+  }
+  nav{
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+  .vector h2{
+    /* font-size: 1.4rem; */
+  }
+  header{
+    margin-bottom: 0;
+  }
+  .list{
+    width: auto;
+    display: flex;
+    column-gap: 1.6rem;
+    position: static;
+    box-shadow: none;
+  }
+  .list li{
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .list button{
+    /* font-size: 1.2rem; */
+    margin-left: 0;
+    padding: 1.2rem 1.6rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .menu{
+    display: none;
+  }
+  nav{
+    flex-wrap: nowrap
+  }
+  .vector img{
+    width: 52px;
+  }
+  .vector h2{
+    font-size: 2.5rem;
+  /* white-space: nowrap; */
+
+  }
+  .list{
+    width: auto;
+    display: flex;
+    column-gap: 2.6rem;
+  }
+  .list li{
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .list button{
+    font-size: 1.5rem;
+    margin-left: 0;
+    padding: 1.4rem 2.2rem;
+    border-radius: 4px;
+  }
+}
+
+

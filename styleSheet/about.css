@@ -1,0 +1,145 @@
+
+.about_section{
+  margin: 2rem;
+  margin-top: 10rem;
+}
+.about_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_section .heading{
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #000000;
+}
+.doctor img{
+  width: 100%;
+  max-width: 320px;
+  object-fit: contain;
+  /* height: 100%; */
+  margin-top: 1.6rem;
+  border-radius: 10px;
+}
+.child_element{
+  max-width: 320px;
+  /* text-align: center; */
+  margin: 1rem auto;
+}
+.child_element h2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  line-height: 1.4;
+  /* text-align: left; */
+}
+.child_element p{
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #000000;
+  opacity: 0.9;
+  line-height: 1.4;
+  margin-top: 0.4rem;
+}
+
+
+.child_element2{
+  margin-top: 2rem;
+}
+.child_element2:last-of-type{
+  margin-top: 2.5rem;
+}
+.child_element2 h2{
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about_div{
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    column-gap: 4rem;
+   
+  }
+  .parent_element{
+    width: 50%;
+    max-width: 670px;
+  }
+  .child_element{
+    max-width: 670px;
+  }
+  .doctor img{
+    max-width: 370px;
+  }
+  .child_element2 h2{
+    text-align: left;
+  }
+  .about_section .heading{
+    font-size: 2.6rem;
+    margin-bottom: 6rem;
+  }
+  .child_element h2{
+    font-size: 2.6rem;
+  }
+  .child_element p{
+    font-size: 2rem;
+  }
+  .child_element2 h2{
+    font-size: 2.2rem;
+  }
+  .child_element2 p{
+    font-size: 2rem;
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  .block_element{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+  }
+  .parent_element{
+    margin-top: 3rem;
+  }
+  .about_section{
+    /* margin: 2rem 10rem; */
+  }
+  .doctor img{
+    max-width: 406px;
+  }
+
+  .child_element2{
+    max-width: 300px;
+  }
+  .child_element2 h2{
+  }
+  .about_section .heading{
+    font-size: 3rem;
+  }
+  .child_element h2{
+    font-size: 3rem;
+  }
+  .child_element p{
+    font-size: 2.2rem;
+  }
+  .child_element2 h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 6rem;
+
+  }
+  .child_element2 p{
+    font-size: 2rem;
+  }
+  .parent_element{
+    width: 58%;
+    max-width: 970px;
+  }
+  .child_element{
+    max-width: 970px;
+  }
+  .child_element2:first-of-type{
+    border-right: 1.5px solid #00000033
+  }
+}
