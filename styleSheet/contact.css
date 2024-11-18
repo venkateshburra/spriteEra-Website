@@ -45,6 +45,7 @@
 .map_div img{
   width: 100%;
   max-width: 322px;
+  /* height: 100%; */
   height: 370px;
   margin-top: 1.4rem;
 }

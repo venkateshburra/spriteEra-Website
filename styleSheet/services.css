@@ -152,9 +152,12 @@
   }
   .service_item p{
     font-size: 2rem;
+    /* margin-bottom: 21rem; */
+  }
+  .article_service2 .service_para{
+    margin-bottom: 3rem;
   }
   .article_service2 p{
     font-size: 2rem;
-    margin-bottom: 2rem;
   }
 }
