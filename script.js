@@ -6,3 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     expand.classList.toggle('expandItems');
   });
 });
+
+document.querySelector('header').addEventListener('wheel', (event) => {
+  event.preventDefault();
+});
