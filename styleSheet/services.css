@@ -130,6 +130,9 @@
   .service_container{
     gap: 3rem;
   }
+  .article_service{
+    margin-top: 10rem;
+  }
   .article_service2{
     margin-top: 14rem;
   }
@@ -152,5 +155,6 @@
   }
   .article_service2 p{
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
 }
