@@ -121,7 +121,7 @@
     margin-right: 6rem;
 
   }
-  .child_element2 p{
+  .child_element2:first-of-type p{
     font-size: 2rem;
   }
   .parent_element{
